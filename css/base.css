@@ -1,0 +1,43 @@
+input{
+    margin: 5px 0;
+}
+fieldset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    padding: 15px 25px;
+    background-color:rgb(85, 175, 170);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(80, 76, 76);
+}
+
+fieldset input.operand {
+    width: 45px;
+}
+
+legend{
+    background-color: slategray;
+    padding: 0 10px;
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+}
+
+input.button {
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(166,166,177,0.8757878151260504) 35%, rgba(177,189,198,1) 77%);
+}
+  
+input.button:hover {
+    background: linear-gradient(138deg, rgba(177,189,198,1) 0%, rgba(166,166,177,0.8757878151260504) 35%, rgba(2,0,36,1) 77%);
+}
+
+input.button:focus {
+    outline: none;
+    box-shadow: none;
+}
